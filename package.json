@@ -11,6 +11,12 @@
     "url": "git+https://github.com/evanbb/ts-parse.git"
   },
   "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Evan Bremer",
   "license": "ISC",
   "bugs": {
