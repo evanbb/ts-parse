@@ -1,0 +1,23 @@
+{
+  "name": "@evanbb/ts-parse",
+  "version": "0.0.1",
+  "description": "",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanbb/ts-parse.git"
+  },
+  "keywords": [],
+  "author": "Evan Bremer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evanbb/ts-parse/issues"
+  },
+  "homepage": "https://github.com/evanbb/ts-parse#readme",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
