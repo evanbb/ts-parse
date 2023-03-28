@@ -21,7 +21,7 @@ type TokenizeInternal<
   Input extends string,
   OpeningPattern extends string,
   ClosingPattern extends string,
-  Result extends ReadonlyArray<string> = []
+  Result extends ReadonlyArray<string>
 > = Input extends ParseNext<Input, OpeningPattern>
   ? Result
   : TokenizeInternal<
@@ -38,7 +38,7 @@ export type Tokenize<
   Input extends string,
   OpeningPattern extends string = "{{",
   ClosingPattern extends string = "}}"
-> = TokenizeInternal<Input, OpeningPattern, ClosingPattern>;
+> = TokenizeInternal<Input, OpeningPattern, ClosingPattern, []>;
 
 export type SubstitionMap<Values extends ReadonlyArray<string>> = {
   [K in Values[number]]: string;
